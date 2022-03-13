@@ -11,17 +11,6 @@ jobs:
         uses: actions/setup-node@v2.4.0
       # Install dependencies
       - run: npm install
-      # Transform Figma Tokens JSON to something Style Dictionary can read
-      - run: npx token-transformer theming-tokens.json tokens/brand-a-light.json core,bcore,comp,semantic,AL
-      - run: npx token-transformer theming-tokens.json tokens/brand-b-light.json core,bcore,comp,semantic,BL
-      - run: npx token-transformer theming-tokens.json tokens/brand-c-light.json core,bcore,comp,semantic,CL
-      # - run: npx token-transformer tokens.json tokens/light.json core,semantic-light,button,tag,alert,heading,field-label,help-text,radio,checkbox,divider
-      # - run: npx token-transformer tokens.json tokens/dark.json core,semantic-dark,button,tag,alert,heading,field-label,help-text,radio,checkbox,divider
-      # - run: npx token-transformer tokens.json tokens/dark.json Core,Semantic-dark,button,tag,alert
-      # Create a light theme, exclude the global tokens
-      # - run: npx token-transformer tokens.json tokens/semantic-2.json global,semantic,theme global
-      # Create a dark theme, exclude the global tokens
-      # - run: npx token-transformer tokens.json tokens/semantic.json global,semantic-2,theme global
       # Convert tokens according to Style Dictionary config
       - run: node build.js
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.

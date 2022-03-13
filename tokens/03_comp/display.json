@@ -1,0 +1,8 @@
+{
+  "display": {
+    "line-height": {
+      "value": "{semantic.line-height.typography.display}",
+      "type": "lineHeights"
+    }
+  }
+}
