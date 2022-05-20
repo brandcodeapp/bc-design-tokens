@@ -1,4 +1,5 @@
-{ "code": {
+{
+  "code": {
     "font-family": {
       "value": "{semantic.font-family.typography.mono}",
       "type": "fontFamilies"

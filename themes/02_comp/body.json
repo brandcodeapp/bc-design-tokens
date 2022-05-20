@@ -1,4 +1,5 @@
-{"body": {
+{
+  "body": {
     "line-height": {
       "value": "{semantic.line-height.typography.body}",
       "type": "lineHeights"
@@ -69,4 +70,5 @@
         "type": "fontSizes"
       }
     }
-  }}
+  }
+}
