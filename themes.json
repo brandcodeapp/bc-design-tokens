@@ -7803,5 +7803,83 @@
         }
       }
     }
-  }
+  },
+  "$themes": [
+    {
+      "id": "0689ef15f1b4414ca50d9e4df179441b1f4bca66",
+      "name": "Brand A light",
+      "selectedTokenSets": {
+        "core": "source",
+        "bcore": "disabled",
+        "comp": "enabled",
+        "semantic": "enabled",
+        "AL": "enabled",
+        "AD": "disabled",
+        "BL": "disabled",
+        "BD": "disabled",
+        "CL": "disabled",
+        "CD": "disabled",
+        "INV-L": "disabled",
+        "INV-D": "disabled"
+      },
+      "$figmaStyleReferences": {}
+    },
+    {
+      "id": "43496366c26d7e2de658f8eb526591cc43dbf209",
+      "name": "Brand A dark",
+      "selectedTokenSets": {
+        "core": "source",
+        "bcore": "disabled",
+        "comp": "enabled",
+        "semantic": "enabled",
+        "AL": "enabled",
+        "AD": "enabled",
+        "BL": "disabled",
+        "BD": "disabled",
+        "CL": "disabled",
+        "CD": "disabled",
+        "INV-L": "disabled",
+        "INV-D": "disabled"
+      },
+      "$figmaStyleReferences": {}
+    },
+    {
+      "id": "6421905f157874a7aad50561168282f505d79f0c",
+      "name": "Brand B light",
+      "selectedTokenSets": {
+        "core": "source",
+        "bcore": "disabled",
+        "comp": "enabled",
+        "semantic": "enabled",
+        "AL": "disabled",
+        "AD": "disabled",
+        "BL": "enabled",
+        "BD": "disabled",
+        "CL": "disabled",
+        "CD": "disabled",
+        "INV-L": "disabled",
+        "INV-D": "disabled"
+      },
+      "$figmaStyleReferences": {}
+    },
+    {
+      "id": "c449bdca5d141efb3a238c24ce0d8c6c04bb7c05",
+      "name": "Brand C light",
+      "selectedTokenSets": {
+        "core": "enabled",
+        "bcore": "disabled",
+        "comp": "enabled",
+        "semantic": "enabled",
+        "AL": "disabled",
+        "AD": "disabled",
+        "BL": "disabled",
+        "BD": "disabled",
+        "CL": "enabled",
+        "CD": "disabled",
+        "INV-L": "disabled",
+        "INV-D": "disabled"
+      },
+      "$figmaStyleReferences": {}
+    }
+  ]
 }
